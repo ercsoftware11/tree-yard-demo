@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>Home | Example Only</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="./assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="./assets/vendor/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="./assets/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="./assets/vendor/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="./assets/vendor/dzsparallaxer/dzsparallaxer.css">
+
+    <!-- CSS Space Template -->
+    <link rel="stylesheet" href="./assets/css/theme.css">
+</head>
+
+<body>
+    <!-- ========== HEADER ========== -->
+    <header id="header" class="u-header">
+        <div class="u-header__section">
+            <div id="logoAndNav" class="container">
+                <!-- Nav -->
+                <nav class="js-mega-menu navbar navbar-expand-lg u-header__navbar">
+                    <!-- Logo -->
+                    <div class="u-header__navbar-brand-wrapper">
+                        <a class="navbar-brand u-header__navbar-brand" href="index.html" aria-label="Space">
+                            <img class="u-header__navbar-brand-default" src="./assets/img/logos/tree-2.png" alt="Logo"
+                                height="75px" width="125px">
+                            <img class="u-header__navbar-brand-mobile" src="./assets/img/logos/tree-2.png" alt="Logo"
+                                height="75px" width="200px">
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+
+                    <!-- Responsive Toggle Button -->
+                    <button type="button" class="navbar-toggler btn u-hamburger u-header__hamburger"
+                        aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar"
+                        data-toggle="collapse" data-target="#navBar">
+                        <span class="d-none d-sm-inline-block">Menu</span>
+                        <span id="hamburgerTrigger" class="u-hamburger__box ml-3">
+                            <span class="u-hamburger__inner"></span>
+                        </span>
+                    </button>
+                    <!-- End Responsive Toggle Button -->
+
+                    <!-- Navigation -->
+                    <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse py-0">
+                        <ul class="navbar-nav u-header__navbar-nav">
+
+                            <li class="nav-item u-header__nav-item">
+                                <a class="nav-link u-header__nav-link" href="#">
+                                    Home
+                                </a>
+                            </li>
+
+                            <!-- Home -->
+                            <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover"
+                                data-animation-in="fadeInUp" data-animation-out="fadeOut">
+                                <a id="homeMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                                    aria-haspopup="true" aria-expanded="false" aria-labelledby="homeSubMenu">
+                                    About
+                                    <i class="fa fa-angle-down u-header__nav-link-icon"></i>
+                                </a>
+
+                                <!-- Home - Submenu -->
+                                <ul id="homeSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0"
+                                    style="min-width: 220px;" aria-labelledby="homeMegaMenu">
+                                    <!-- Classic -->
+                                    <li class="dropdown-item hs-has-sub-menu">
+                                        <a id="navLinkHomeClassic" class="nav-link u-header__sub-menu-nav-link"
+                                            href="javascript:;" aria-haspopup="true" aria-expanded="false"
+                                            aria-controls="navSubmenuHomeClassic">
+                                            Example
+                                        </a>
+
+
+                                    </li>
+                                    <!-- Classic -->
+
+                                    <!-- Corporate -->
+                                    <li class="dropdown-item hs-has-sub-menu">
+                                        <a id="navLinkHomeCorporate" class="nav-link u-header__sub-menu-nav-link"
+                                            href="javascript:;" aria-haspopup="true" aria-expanded="false"
+                                            aria-controls="navSubmenuHomeCorporate">
+                                            Example
+
+                                        </a>
+
+
+                                    </li>
+                                    <!-- Corporate -->
+
+                                    <!-- Creative -->
+                                    <li class="dropdown-item hs-has-sub-menu">
+                                        <a id="navLinkHomeCreative" class="nav-link u-header__sub-menu-nav-link"
+                                            href="javascript:;" aria-haspopup="true" aria-expanded="false"
+                                            aria-controls="navSubmenuHomeCreative">
+                                            Example
+                                            <i class="fa fa-angle-right u-header__sub-menu-nav-link-icon"></i>
+                                        </a>
+
+                                        <!-- Submenu (level 2) -->
+                                        <ul id="navSubmenuHomeCreative"
+                                            class="hs-sub-menu list-unstyled u-header__sub-menu u-header__sub-menu-offset"
+                                            style="min-width: 220px;" aria-labelledby="navLinkHomeCreative">
+                                            <li class="dropdown-item u-header__sub-menu-list-item">
+                                                <a class="nav-link u-header__sub-menu-nav-link" href="#">Example</a>
+                                            </li>
+                                            <li class="dropdown-item u-header__sub-menu-list-item">
+                                                <a class="nav-link u-header__sub-menu-nav-link" href="#">Example</a>
+                                            </li>
+                                            <li class="dropdown-item u-header__sub-menu-list-item">
+                                                <a class="nav-link u-header__sub-menu-nav-link" href="#">Example-Up</a>
+                                            </li>
+                                        </ul>
+                                        <!-- End Submenu (level 2) -->
+                                    </li>
+                                    <!-- Creative -->
+
+
+                                    <li class="dropdown-divider"></li>
+
+                                    <!-- Demos -->
+                                    <li class="dropdown-item hs-has-sub-menu">
+                                        <a id="navLinkHomeDemos" class="nav-link u-header__sub-menu-nav-link"
+                                            href="javascript:;" aria-haspopup="true" aria-expanded="false"
+                                            aria-controls="navSubmenuHomeDemos">
+                                            Example
+                                            <i class="fa fa-angle-right u-header__sub-menu-nav-link-icon"></i>
+                                        </a>
+
+
+                                    </li>
+                                    <!-- End Demos -->
+                                </ul>
+                                <!-- End Home - Submenu -->
+                            </li>
+                            <!-- End Home -->
+
+                            <!-- Button -->
+                            <li class="nav-item u-header__nav-item-btn">
+                                <a class="btn btn-sm btn-primary" href="#">
+                                    Free Quote
+                                </a>
+                            </li>
+                            <!-- End Button -->
+                        </ul>
+                    </div>
+                    <!-- End Navigation -->
+                </nav>
+                <!-- End Nav -->
+            </div>
+        </div>
+    </header>
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content">
+        <!-- Hero Section -->
+        <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+            data-options='{direction: "normal"}'>
+            <!-- Apply your Parallax background image here -->
+            <div class="divimage dzsparallaxer--target gradient-overlay-half-white-v1 bg-img-hero"
+                style="height: 120%; background-image: url(./assets/img/bg/sven-brandsma-GtbE_1zPmZ8-unsplash.jpg);">
+            </div>
+
+            <div class="container position-relative z-index-2 space-2-top space-3-bottom space-4--lg">
+                <div class="row justify-content-lg-between align-items-lg-center">
+                    <div class="col-lg-6 mb-9 mb-lg-0">
+                        <!-- Description -->
+                        <div class="mb-5">
+                            <span class="d-block text-uppercase mb-2">We are</span>
+                            <h1 class="display-4 font-size-48--md-down">Townsville's choice for your yard work</h1>
+                        </div>
+                        <a class="btn btn-primary" href="#">Request A Free Quote</a>
+                        <!-- End Description -->
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <!-- Fancybox -->
+                        <a class="js-fancybox u-media-player" href="javascript:;" data-src="//vimeo.com/167434033"
+                            data-speed="700" data-animate-in="zoomIn" data-animate-out="zoomOut"
+                            data-caption="Tree Removal - Example Video">
+                            <span class="u-media-player__icon u-media-player__icon--xl">
+                                <i class="fa fa-play u-media-player__icon-inner"></i>
+                            </span>
+                            <span class="d-block lead text-white mt-2">See us in action</span>
+                        </a>
+                        <!-- End Fancybox -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Hero Section -->
+
+        <!-- Features Section -->
+        <div class="container position-relative z-index-2">
+            <div class="bg-gray-100 shadow-lg rounded mt-n9">
+                <div class="card-deck d-block d-lg-flex card-lg-gutters-1">
+                    <div class="card border-0 mb-0">
+                        <!-- Listing -->
+                        <div class="card-body p-4">
+                            <div class="media">
+                                <img class="max-width-9 mb-2" src="./assets/svg/components/consult-primary-icon.svg"
+                                    alt="Image Description">
+                                <div class="media-body px-4">
+                                    <h2 class="h6 text-dark mb-1">Lorem</h2>
+                                    <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Listing -->
+                    </div>
+
+                    <div class="card border-0 mb-0">
+                        <!-- Listing -->
+                        <div class="card-body p-4">
+                            <div class="media">
+                                <img class="max-width-9 mb-2" src="./assets/svg/components/idea-primary-icon.svg"
+                                    alt="Image Description">
+                                <div class="media-body px-4">
+                                    <h3 class="h6 text-dark mb-1">Ipsum</h3>
+                                    <p class="mb-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Listing -->
+                    </div>
+
+                    <div class="card border-0 mb-0">
+                        <!-- Listing -->
+                        <div class="card-body p-4">
+                            <div class="media">
+                                <img class="max-width-9 mb-2" src="./assets/svg/components/measure-primary-icon.svg"
+                                    alt="Image Description">
+                                <div class="media-body px-4">
+                                    <h4 class="h6 text-dark mb-1">Dolor</h4>
+                                    <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Listing -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Features Section -->
+
+        <!-- About Section -->
+        <div class="container space-2 space-2--lg">
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <!-- Info -->
+                    <div class="text-center space-2 space-3--lg px-7">
+                        <div class="mb-5">
+                            <!-- <span class="d-block text-primary font-weight-medium text-uppercase">About us</span> -->
+                            <span class="u-label u-label--sm u-label--primary mb-3">About Us</span>
+                            <h2 class="h1 text-dark font-weight-medium text-capitalize">Who are we?</h2>
+                            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                        <a class="btn btn-sm btn-primary" href="#">Learn
+                            More <i class="fa fa-angle-right ml-2"></i></a>
+                    </div>
+                    <!-- End Info -->
+                </div>
+                <div class="col-lg-6 d-none d-lg-inline-block bg-img-hero"
+                    style="background-image: url(./assets/img/700x700/img6.jpg);"></div>
+
+                <div class="col-lg-6 d-lg-none">
+                    <img class="img-fluid" src="./assets/img/700x700/img6.jpg" alt="Image Description">
+                </div>
+            </div>
+        </div>
+        <!-- End About Section -->
+
+        <!-- What we offer -->
+        <div class="bg-gray-100">
+            <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-9">
+                <span class="u-label u-label--sm u-label--primary mb-3 mt-5">Services</span>
+                <h2 class="h3">What we offer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="container mt-5">
+                <div class="row justify-content-lg-between">
+                    <div class="col-md-7">
+                        <!-- Gallery -->
+                        <div class="row mx-gutters-2 mb-9 mb-md-0">
+                            <div class="col-6 mb-3">
+                                <img class="img-fluid" src="./assets/img/bg/1.jpg" alt="Image Description">
+                            </div>
+
+                            <div class="col-4 align-self-end mb-3">
+                                <img class="img-fluid" src="./assets/img/bg/2.jpg" alt="Image Description">
+                            </div>
+
+                            <div class="w-100"></div>
+
+                            <div class="col-10 offset-2">
+                                <img class="img-fluid" src="./assets/img/bg/3.jpg" alt="Image Description">
+                            </div>
+                        </div>
+                        <!-- End Gallery -->
+                    </div>
+
+                    <div class="col-md-5 col-lg-4">
+                        <h3 class="h5">Our Services</h3>
+                        <div class="media-body ml-md-5 mt-md-2 text-primary">
+                            • Tree removals
+                        </div>
+                        <div class="media-body ml-md-5 mt-md-2 text-primary">
+                            • Tree trimming and pruning
+                        </div>
+                        <div class="media-body ml-md-5 mt-md-2 text-primary">
+                            • Yard cleanups
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End What we offer -->
+
+        <!-- CTA Section -->
+        <div class="bg-primary bg-with-circles text-white overflow-hidden">
+            <div class="container space-2">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h6 class="text-uppercase text-white-70 font-weight-medium letter-spacing-0_06 text-lh-xs mb-2">
+                            Contact</h6>
+                        <h3 class="mb-3">Ready for a clean yard?
+                            <!-- <br class="d-none d-lg-inline-block"> Contact us for a free quote -->
+                        </h3>
+                        <p class="text-white-70 mb-0">Contact us for a free quote</p>
+                    </div>
+
+                    <div class="col-md-6 text-md-right">
+                        <a href="#" class="btn btn-wide btn-light mb-1 mb-sm-0 mr-sm-2">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End CTA Section -->
+
+        <!-- ========== FOOTER ========== -->
+        <footer class="bg-dark">
+            <div class="container space-2">
+                <div class="row justify-content-md-between">
+                    <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0">
+                        <h3 class="h6 text-white mb-3">About</h3>
+
+                        <!-- List Group -->
+                        <div class="list-group list-group-flush list-group-transparent">
+                            <a class="list-group-item list-group-item-action"
+                                href="#">About Us</a>
+                            <a class="list-group-item list-group-item-action"
+                                href="#">Example</a>
+                        </div>
+                        <!-- End List Group -->
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
+                        <h3 class="h6 text-white mb-3">Services</h3>
+
+                        <!-- List Group -->
+                        <div class="list-group list-group-flush list-group-transparent">
+                            <a class="list-group-item list-group-item-action"
+                                href="#">Yard Clean</a>
+                            <a class="list-group-item list-group-item-action" href="#">Tree Removals</a>
+                            <a class="list-group-item list-group-item-action"
+                                href="#">Tree Trimming and Pruning</a>
+                        </div>
+                        <!-- End List Group -->
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0">
+                        <h3 class="h6 text-white mb-3">Social</h3>
+
+                        <!-- List -->
+                        <div class="list-group list-group-flush list-group-transparent">
+                            <a class="list-group-item list-group-item-action" href="#">
+                                <span class="fab fa-facebook-f min-width-3 text-center mr-2"></span>
+                                Facebook
+                            </a>
+                            <a class="list-group-item list-group-item-action" href="#">
+                                <span class="fab fa-twitter min-width-3 text-center mr-2"></span>
+                                Twitter
+                            </a>
+
+                        </div>
+                        <!-- End List -->
+                    </div>
+
+                    <div class="col-lg-4 order-lg-1 d-flex align-items-start flex-column">
+                        <!-- Logo -->
+                        <a class="d-inline-block mb-5" href="index.html" aria-label="Space">
+                            Tree Removal
+                        </a>
+                        <!-- End Logo -->
+
+
+                        <p class="small">Example Website by Ethan Cannon</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ========== END FOOTER ========== -->
+    </main>
+
+
+    <!-- JS Global Compulsory -->
+    <script src="./assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="./assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <script src="./assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="./assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="./assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="./assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="./assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+
+    <!-- JS Space -->
+    <script src="./assets/js/hs.core.js"></script>
+    <script src="./assets/js/components/hs.header.js"></script>
+    <script src="./assets/js/components/hs.unfold.js"></script>
+    <script src="./assets/js/components/hs.validation.js"></script>
+    <script src="./assets/js/helpers/hs.focus-state.js"></script>
+    <script src="./assets/js/components/hs.quantity-counter.js"></script>
+    <script src="./assets/js/components/hs.strings-unifier.js"></script>
+    <script src="./assets/js/components/hs.malihu-scrollbar.js"></script>
+    <script src="./assets/js/components/hs.show-animation.js"></script>
+    <script src="./assets/js/components/hs.slick-carousel.js"></script>
+    <script src="./assets/js/components/hs.fancybox.js"></script>
+    <script src="./assets/js/components/hs.go-to.js"></script>
+    <script src="./assets/js/components/hs.range-datepicker.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+        $(window).on('load', function () {
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+                event: 'hover',
+                pageContainer: $('.container'),
+                breakpoint: 991,
+                hideTimeOut: 0
+            });
+        });
+
+        $(document).on('ready', function () {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#header'));
+
+            // initialization of quantity counter
+            var counter = 0;
+
+            $.HSCore.components.HSQantityCounter.init('.js-quantity', {
+                stopIncrease: function () {
+                    if (counter >= 19) return true;
+                },
+                afterIncrease: function () {
+                    counter += 1;
+                },
+                afterDecrease: function () {
+                    counter -= 1;
+                },
+                afterChange: function () {
+                    if (counter < 20) {
+                        // initialization of strings splitter
+                        $.HSCore.components.HSStringsUnifier.init('.js-string-unifier');
+                    }
+                }
+            });
+
+            // Help function
+            $('.dropdown-menu').on('click', function (e) {
+                var element = $(e.target);
+
+                if (!(
+                    element[0].tagName.toLowerCase() === 'button' ||
+                    element[0].tagName.toLowerCase() === 'a'
+                )) {
+                    return false;
+                }
+            });
+
+            // initialization of unfold component
+            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
+                afterOpen: function () {
+                    if (!$('body').hasClass('IE11')) {
+                        $(this).find('input[type="search"]').focus();
+                    }
+                }
+            });
+
+            // initialization of form validation
+            $.HSCore.components.HSValidation.init('.js-validate', {
+                rules: {
+                    confirmPassword: {
+                        equalTo: '#password'
+                    }
+                }
+            });
+
+            // initialization of forms
+            $.HSCore.helpers.HSFocusState.init();
+
+            // initialization of malihu scrollbar
+            $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
+
+
+            // initialization of show animations
+            $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+            $('.js-slick-gallery').on('afterChange', function () {
+                $(this).find('.js-prev').removeClass('opacity-0');
+            });
+
+            // initialization of range datepicker
+            $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+
+            // initialization of fancybox
+            $.HSCore.components.HSFancyBox.init('.js-fancybox');
+
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
+        });
+    </script>
+</body>
+
+</html>
